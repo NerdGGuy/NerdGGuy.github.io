@@ -1,0 +1,28 @@
+name:                blog
+version:             0.1.0.0
+synopsis:            blog
+description:         blog
+license:             BSD3             
+license-file:        LICENSE
+author:              Matthew Green
+maintainer:          Matthew Green
+-- copyright:           
+category:            Network
+build-type:          Simple
+-- extra-source-files:  
+cabal-version:       >=1.10
+
+executable blog
+  main-is:             main.lhs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base,
+                       bytestring,
+                       text,
+                       mtl,
+                       transformers,
+                       lucid,
+                       scotty
+
+  hs-source-dirs:      src
+  default-language:    Haskell2010
